@@ -19,7 +19,9 @@ def generar_ventas(numeroVentas):
 
  ventas =[]
 
- fechaInicio = datetime(2025,1,1)
+#  fechaInicio = datetime(2025,1,1)
+ fechaInicio = datetime(2024,12,1)
+
  for _ in range(numeroVentas):
   producto = random.choice(productos) 
   cantidad = random.randint(1,5)
